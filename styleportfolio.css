@@ -1,0 +1,301 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-color: rgb(78, 82, 78);
+    background-image: url(images/rachael-gorjestani-X6CZGpJBi8U-unsplash\ \(2\).jpg); 
+    background-size: cover;
+    background-blend-mode: soft-light;
+    background-repeat: repeat; 
+    background-position: center;  
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1024px;
+}
+
+header {
+    height: 118px;
+    width: 1024px;
+    text-align: center;
+}
+
+nav {
+    height: 20px;
+    width: 1024px;
+    opacity: 0.6;
+    text-align: center;
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+main {
+    height: 3000px;
+    width: 1024px;
+}
+
+h2 {
+    font-size: 40px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 40px;  
+}
+
+h2:hover {
+    animation: shake 0.8s;
+}
+
+@keyframes shake{ 
+    0%{ 
+      transform: translateX(0) 
+    } 
+    25%{ 
+      transform: translateX(25px); 
+    } 
+      
+    50%{ 
+      transform: translateX(-25px); 
+    } 
+    100%{ 
+      transform: translateX(0px); 
+    } 
+}
+
+.row {
+    display: flex;
+}
+  
+.column {
+    flex: 33.33%;
+    padding: 20px;
+}
+
+.zoomImage_3 {
+    transform: rotate(90deg);
+    outline: 1px transparent;
+    border: 5px transparent;
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.zoomImage_3 img {
+    width: 400px;
+    height: 400px;
+    max-width: 100%;
+    -webkit-transition: 0.8s;
+    -moz-transition: 0.8s;
+    -o-transition: 0.8s;
+    -ms-transition: 0.8s;
+    transition: 0.8s;
+}
+
+.zoomImage_3 img:hover {
+    -moz-transform: scale(2) rotate(0deg);
+    -webkit-transform: scale(2) rotate(0deg);
+    -o-transition: scale(2) rotate(0deg);
+    -ms-transform: scale(2) rotate(0deg);
+    transform: scale(2) rotate(0deg);
+    -webkit-transition: 0.8s;
+    -moz-transition: 0.8s;
+    -o-transition: 0.8s;
+    -ms-transition: 0.8s;
+    transition: 0.8s;    
+}
+
+.zoomImage_4 {
+    transform: rotate(180deg);
+    outline: 1px transparent;
+    border: 5px transparent;
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.zoomImage_4 img {
+    width: 400px;
+    height: 400px;
+    max-width: 100%;
+    -webkit-transition: 0.8s;
+    -moz-transition: 0.8s;
+    -o-transition: 0.8s;
+    -ms-transition: 0.8s;
+    transition: 0.8s;
+}
+
+.zoomImage_4 img:hover {
+    -moz-transform: scale(2) rotate(0deg);
+    -webkit-transform: scale(2) rotate(0deg);
+    -o-transition: scale(2) rotate(0deg);
+    -ms-transform: scale(2) rotate(0deg);
+    transform: scale(2) rotate(0deg);
+    -webkit-transition: 0.8s;
+    -moz-transition: 0.8s;
+    -o-transition: 0.8s;
+    -ms-transition: 0.8s;
+    transition: 0.8s;    
+}
+
+.zoomImage_5 {
+    transform: rotate(270deg);
+    outline: 1px transparent;
+    border: 5px transparent;
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.zoomImage_5 img {
+    width: 400px;
+    height: 400px;
+    max-width: 100%;
+    -webkit-transition: 0.8s;
+    -moz-transition: 0.8s;
+    -o-transition: 0.8s;
+    -ms-transition: 0.8s;
+    transition: 0.8s;
+}
+
+.zoomImage_5 img:hover {
+    -moz-transform: scale(2) rotate(0deg);
+    -webkit-transform: scale(2) rotate(0deg);
+    -o-transition: scale(2) rotate(0deg);
+    -ms-transform: scale(2) rotate(0deg);
+    transform: scale(2) rotate(0deg);
+    -webkit-transition: 0.8s;
+    -moz-transition: 0.8s;
+    -o-transition: 0.8s;
+    -ms-transition: 0.8s;
+    transition: 0.8s;    
+}
+
+.zoomImage_6 {
+    outline: 1px transparent;
+    border: 5px transparent;
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.zoomImage_6 img {
+    width: 400px;
+    height: 400px;
+    max-width: 100%;
+    -webkit-transition: 0.8s;
+    -moz-transition: 0.8s;
+    -o-transition: 0.8s;
+    -ms-transition: 0.8s;
+    transition: 0.8s;
+}
+
+.zoomImage_6 img:hover {
+    -moz-transform: scale(2) rotate(0deg);
+    -webkit-transform: scale(2) rotate(0deg);
+    -o-transition: scale(2) rotate(0deg);
+    -ms-transform: scale(2) rotate(0deg);
+    transform: scale(2) rotate(0deg);
+    -webkit-transition: 0.8s;
+    -moz-transition: 0.8s;
+    -o-transition: 0.8s;
+    -ms-transition: 0.8s;
+    transition: 0.8s;    
+}
+
+.zoomImage_7 {
+    outline: 1px transparent;
+    border: 5px transparent;
+    width: 400px;
+    height: 500px;
+    overflow: hidden;
+}
+
+.zoomImage_7 img {
+    width: 400px;
+    height: 500px;
+    max-width: 100%;
+    -webkit-transition: 0.8s;
+    -moz-transition: 0.8s;
+    -o-transition: 0.8s;
+    -ms-transition: 0.8s;
+    transition: 0.8s;
+}
+
+.zoomImage_7 img:hover {
+    -moz-transform: scale(2) rotate(0deg);
+    -webkit-transform: scale(2) rotate(0deg);
+    -o-transition: scale(2) rotate(0deg);
+    -ms-transform: scale(2) rotate(0deg);
+    transform: scale(2) rotate(0deg);
+    -webkit-transition: 0.8s;
+    -moz-transition: 0.8s;
+    -o-transition: 0.8s;
+    -ms-transition: 0.8s;
+    transition: 0.8s;    
+}
+
+.zoomImage_8 {
+    outline: 1px transparent;
+    border: 5px transparent;
+    width: 400px;
+    height: 500px;
+    overflow: hidden;
+}
+
+.zoomImage_8 img {
+    width: 400px;
+    height: 500px;
+    max-width: 100%;
+    -webkit-transition: 0.8s;
+    -moz-transition: 0.8s;
+    -o-transition: 0.8s;
+    -ms-transition: 0.8s;
+    transition: 0.8s;
+}
+
+.zoomImage_8 img:hover {
+    -moz-transform: scale(2) rotate(0deg);
+    -webkit-transform: scale(2) rotate(0deg);
+    -o-transition: scale(2) rotate(0deg);
+    -ms-transform: scale(2) rotate(0deg);
+    transform: scale(2) rotate(0deg);
+    -webkit-transition: 0.8s;
+    -moz-transition: 0.8s;
+    -o-transition: 0.8s;
+    -ms-transition: 0.8s;
+    transition: 0.8s;    
+}
+
+p {
+    font-size: 22px;
+    color: white;
+    display: block;
+    text-align: auto;
+    font-family: Arial, Helvetica, sans-serif;  
+}
+
+a {
+    color: white;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+    height: 20px;
+    width: 1024px;
+    margin-top: 100px;
+    text-align: center; 
+    font-size: 10px;
+    opacity: 0.6;
+    background-color: black;
+}
+

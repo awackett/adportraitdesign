@@ -1,0 +1,70 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-color: rgb(78, 82, 78);
+    background-image: url(images/rachael-gorjestani-X6CZGpJBi8U-unsplash\ \(2\).jpg); 
+    background-size: cover;
+    background-blend-mode: soft-light;
+    background-repeat: repeat; 
+    background-position: center;  
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1024px;
+}
+
+header {
+    height: 118px;
+    width: 1024px;
+    text-align: center;
+}
+
+nav {
+    height: 20px;
+    width: 1024px;
+    opacity: 0.6;
+    text-align: center;
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+main {
+    height: 3000px;
+    width: 1024px;
+    text-align: center;
+}
+
+p {
+    font-size: 22px;
+    color: white;
+    display: block;
+    text-align: auto;
+    font-family: Arial, Helvetica, sans-serif;  
+}
+
+a {
+    color: white;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+    height: 20px;
+    width: 1024px;
+    margin-top: 100px;
+    text-align: center; 
+    font-size: 10px;
+    opacity: 0.6;
+    background-color: black;
+}
